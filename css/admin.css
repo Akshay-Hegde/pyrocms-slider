@@ -1,0 +1,13 @@
+table { border: 0; }
+th, td, tr:nth-child(odd), tr:nth-child(even) { background: transparent !important; }
+th:last-child, td:last-child { text-align: right; }
+th:first-child, td:first-child { text-align: center; width: 20px; }
+
+.photos li { float: left; margin: 0 10px 10px 0; width: 90px; height: 90px; position: relative;}
+.photos li a { display: block; visibility: hidden; position: absolute; top: 0; left: 0; width: 90px; height: 45px; text-align: center; line-height: 45px; z-index: 50; color: #fff; }
+.photos li:hover a { visibility: visible; }
+.photos li a.delete-photo { background: #000; background: rgba(200,0,0,0.8); }
+.photos li a.edit-photo { background: #000; background: rgba(0,0,0,0.8); top: 45px;}
+.photos li img { width: 90px; height: 90px; position: absolute; top: 0; left: 0; z-index: 25; }
+.photos li a.add-photos { visibility: visible; display: block; width: 90px; height: 90px; background: #ddd; color: #777; font-size: 58px; text-align: center; line-height: 80px; }
+.photos .add-photos:hover { background: #555; color: #ccc; }

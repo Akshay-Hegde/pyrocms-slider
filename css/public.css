@@ -1,0 +1,4 @@
+.clients-list { list-style: none; margin: 0; padding: 0; }
+.clients-list li { float: left; margin-right: 15px; padding-right: 15px; /*border-right: 1px solid #ccc; */}
+.clients-list a, .clients-list li { color: #bbb !important; font-size: 42px; line-height: 46px; letter-spacing: -2px; text-transform: uppercase; }
+.clients-list a:hover { color: #AB9887 !important; }
