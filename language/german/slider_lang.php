@@ -12,3 +12,6 @@ $lang['slides.index_delete_btn'] = "Löschen";
 $lang['slides.confirm_delete'] = "Diese Slide wirklich löschen?";
 $lang['slides.delete_success'] = "Die Slide wurde gelöscht?";
 $lang['slides.delete_error'] = "Die Slide konnte nicht gelöscht werden. Bitte kontaktieren Sie einen Administrator.";
+
+$lang['slides.section_settings_title'] = "Einstellungen";
+$lang['slides.settings_index_title'] = "Slider-Einstellungen";

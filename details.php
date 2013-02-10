@@ -18,7 +18,7 @@ class Module_Slider extends Module {
 			'backend' => TRUE,
 			'menu' => 'content',
 		    'sections' => array(
-			    'clients' => array(
+			    'slides' => array(
 				    'name' => 'slides.section_title',
 				    'uri' => 'admin/slider/',
 				    'shortcuts' => array(
@@ -29,6 +29,10 @@ class Module_Slider extends Module {
 						)
 				    ),
 				),
+				'slider_settings' => array(
+		    		'name' => 'slides.section_settings_title',
+		    		'uri' => 'admin/slider/settings/',
+		    	),
 			),
 		);
 	}
